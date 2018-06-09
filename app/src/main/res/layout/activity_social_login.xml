@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialLogin">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="JavaSampleApproach.com"
+            android:textSize="28sp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/UsrerprofilePic"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Signed Out"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/GUser_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="14sp"
+            tools:text="User Name:" />
+        <TextView
+            android:id="@+id/UserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="14sp"
+            tools:text=" User ID: 123456789abc" />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/Flogin_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"  />
+        <Button
+            android:id="@+id/btn_sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_logout_from_google"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_revoke_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_revoke_access"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

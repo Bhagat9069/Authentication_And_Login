@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "111087478990",
+    "firebase_url": "https://creastivecreation.firebaseio.com",
+    "project_id": "creastivecreation",
+    "storage_bucket": "creastivecreation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111087478990:android:b1322be73db56683",
+        "android_client_info": {
+          "package_name": "govirtual360.numberverify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111087478990-eejnup8cpjmk3q8kf4k3lbosgj000c5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "govirtual360.numberverify",
+            "certificate_hash": "f7abc587fa4fec8cedd60da034b7b00e409433e9"
+          }
+        },
+        {
+          "client_id": "111087478990-t45mv50ujj90nr97kkjpdrld2dmmii46.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "111087478990-t45mv50ujj90nr97kkjpdrld2dmmii46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYRHt0KjJmErg4Kl3DlxfgvUT-6OGPj-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111087478990-t45mv50ujj90nr97kkjpdrld2dmmii46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

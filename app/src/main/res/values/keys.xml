@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_url">https://creastivecreation.firebaseapp.com/__/auth/handler</string>
+
+    <!-- Your Facebook App ID from your app settings on https://developers.facebook.com/ -->
+    <!-- More details here: https://www.firebase.com/docs/android/guide/login/facebook.html -->
+    <string name="keyHash">96vFh/pP7Izt1g2gNLewDkCUM+k=</string>
+    <!--<string name="fb_login_protocol_scheme">fb203433950469678</string>
+    <string name="facebook_app_id">203433950469678</string>-->
+    <string name="facebook_app_secret">f974ff8f597a8ff40836fc37c3c399c6</string>
+    <!-- Your Twitter consumer key and secret from your app settings on https://apps.twitter.com/ -->
+    <!-- More details here: https://www.firebase.com/docs/android/guide/login/twitter.html -->
+    <string name="twitter_consumer_key">203433950469678</string>
+    <string name="twitter_consumer_secret">f974ff8f597a8ff40836fc37c3c399c6</string>
+</resources>
