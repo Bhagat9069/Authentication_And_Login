@@ -10,4 +10,10 @@ public class GitPushDemo {
     public void setJsgf(int jsgf) {
         this.jsgf = jsgf;
     }
+
+    int gfd;
+
+    public int getGfd() {
+        return gfd;
+    }
 }
