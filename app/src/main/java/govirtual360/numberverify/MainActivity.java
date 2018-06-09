@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
         edtPassword =  findViewById(R.id.edt_password);
         fbLoginButton=findViewById(R.id.login_button);
          imageView=findViewById(R.id.profilePic);
-// Initialize your instance of callbackManager//
+// Initialize your instance of callbackManager for facebook//
         callbackManager = CallbackManager.Factory.create();
         findViewById(R.id.btn_email_sign_in).setOnClickListener(this);
         findViewById(R.id.btn_email_create_account).setOnClickListener(this);

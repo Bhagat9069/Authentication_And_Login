@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Authentication_And_Login.iml" filepath="$PROJECT_DIR$/.idea/Authentication_And_Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/FireBasePhoneAuth-master.iml" filepath="$PROJECT_DIR$/FireBasePhoneAuth-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
