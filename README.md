@@ -5,5 +5,6 @@ we can use firebase phone number verification by otp otp is send by firebase and
 some time auto detect not work then we can insert the otp code manually.
 if we din't get sms then we can request again to get the otp.
 
+And it Also contain Login with facebook and google sorrce code 
 don't forget to add your google-service.json file without that app will not work.
 happy coding.
