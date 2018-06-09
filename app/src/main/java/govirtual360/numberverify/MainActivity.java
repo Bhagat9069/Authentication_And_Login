@@ -72,10 +72,10 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(this);
         setContentView(R.layout.activity_main);
-        txtStatus = (TextView) findViewById(R.id.status);
-        txtDetail = (TextView) findViewById(R.id.detail);
-        edtEmail = (EditText) findViewById(R.id.edt_email);
-        edtPassword = (EditText) findViewById(R.id.edt_password);
+        txtStatus =  findViewById(R.id.status);
+        txtDetail = findViewById(R.id.detail);
+        edtEmail =  findViewById(R.id.edt_email);
+        edtPassword =  findViewById(R.id.edt_password);
         fbLoginButton=findViewById(R.id.login_button);
          imageView=findViewById(R.id.profilePic);
 // Initialize your instance of callbackManager//
@@ -104,8 +104,7 @@ public class MainActivity extends AppCompatActivity
         };*/
         accessTokenTracker.startTracking();
 //        profileTracker.startTracking();
-        fbLoginButton.setReadPermissions(Arrays.asList(
-                "public_profile", "email", "user_birthday", "user_friends"));
+        fbLoginButton.setReadPermissions(Arrays.asList("public_profile", "email", "user_birthday", "user_friends"));
 //        fbLoginButton.setReadP+ermissions("Name");
 
 //        LoginManager.getInstance()
